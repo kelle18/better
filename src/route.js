@@ -1,12 +1,12 @@
-import Vue from "vue";
+import Vue from 'vue';
 import VueRouter from "vue-router";
 import Home from "./pages/home.vue";
 import a from "./pages/a.vue";
 import b from "./pages/b.vue";
 import c from "./pages/c.vue";
-// 要告诉 vue 使用 vueRouter
+//要告诉 vue 使用VueRouter
 Vue.use(VueRouter);
-// 一级，二级
+
 
 
 var router = new VueRouter({
@@ -30,11 +30,9 @@ var router = new VueRouter({
                 {
                     path: '/c', name: 'c', component: c,
                 },
-
             ]
         },
-
-
     ]
 })
 export default router;
+
